@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Patient Registration</string>
+
+    <string name="email">ই-মেইল</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="otp">O.T.P</string>
+    <string name="name">পাসওয়ার্ড</string>
+    <string name="age">বয়স</string>
+    <string name="gender">লিঙ্গ</string>
+    <string name="address">ঠিকানা</string>
+    <string name="town">শহর</string>
+    <string name="district">জেলা</string>
+    <string name="pincode">পিনকোড</string>
+    <string name="phoneNo">ফোন নম্বর</string>
+    <string name="login">প্রবেশ করুন</string>
+    <string name="signUp">নিবন্ধন করুন</string>
+    <string name="donthaveaccountsignup">একটি অ্যাকাউন্ট নেই? নিবন্ধন করুন</string>
+    <string name="allreadyhaveanaccountlogin">ইতিমধ্যে একটি সদস্যপদ আছে? প্রবেশ করুন</string>
+    <string name="acceptCondtion">শর্তাদি এবং শর্তাদি গ্রহণ করুন</string>
+    <string name="clickhere"> এখানে ক্লিক করুন</string>
+    <string name="provideDetail">প্রয়োজনীয় বিশদ সরবরাহ করুন</string>
+    <string name="submit">জমা দিন</string>
+</resources>

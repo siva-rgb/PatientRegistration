@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Patient Registration</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="otp">O.T.P</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="address">Address</string>
+    <string name="town">Town</string>
+    <string name="district">District</string>
+    <string name="pincode">Pincode</string>
+    <string name="phoneNo">Phone Number</string>
+    <string name="login">Log In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="donthaveaccountsignup">Don\'t have an account? Sign Up</string>
+    <string name="allreadyhaveanaccountlogin">Already have an account? Log in</string>
+    <string name="acceptCondtion">Accept Terms and Condition!</string>
+    <string name="clickhere"> Click here</string>
+    <string name="provideDetail"> Provide Required Details</string>
+    <string name="submit">Submit</string>
+
+</resources>

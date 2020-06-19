@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "141047515995",
+    "firebase_url": "https://ultracures-project.firebaseio.com",
+    "project_id": "ultracures-project",
+    "storage_bucket": "ultracures-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141047515995:android:29af88f0c16c08f3d9a87e",
+        "android_client_info": {
+          "package_name": "com.example.patientregistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141047515995-3j734hhmcmlcso7rk85ig532vks2015s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patientregistration",
+            "certificate_hash": "cc5850eabbe78dd8b09d31bcefb45209f694ade1"
+          }
+        },
+        {
+          "client_id": "141047515995-uatpprget4jo21no494dh704mqbqa3lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbdlSYqVxK_oYxZIvQymtNc3573TqwID0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141047515995-uatpprget4jo21no494dh704mqbqa3lm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

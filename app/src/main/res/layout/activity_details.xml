@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".DetailsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/logo_ultracure"
+            android:layout_width="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="60dp"/>
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:text="@string/provideDetail"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:background="@drawable/capsule"
+            android:hint="@string/age"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:id="@+id/register_age"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:background="@drawable/capsule"
+            android:hint="@string/gender"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/register_gender"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:background="@drawable/capsule"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/address"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:id="@+id/register_address"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:background="@drawable/capsule"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/town"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:id="@+id/register_town"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:background="@drawable/capsule"
+            android:hint="@string/district"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/register_district"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:background="@drawable/capsule"
+            android:hint="@string/pincode"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/register_pincode"
+            android:textSize="20dp"
+            android:padding="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/acceptCondtion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/click_here"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clickhere" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:text="@string/submit"
+            android:id="@+id/submit"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/design_btn"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

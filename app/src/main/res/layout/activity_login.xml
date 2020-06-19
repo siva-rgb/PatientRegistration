@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@drawable/login_background"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:src="@mipmap/logo_ultracure"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+    <EditText
+        android:background="@drawable/capsule"
+        android:hint="@string/email"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/login_email"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textWebEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:background="@drawable/capsule"
+        android:hint="@string/password"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:id="@+id/login_password"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_login"
+            android:text="@string/login"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/capsule"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/txt_signUp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:text="@string/donthaveaccountsignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

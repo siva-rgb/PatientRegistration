@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Patient Registration</string>
+
+    <string name="email">ଇମେଲ୍</string>
+    <string name="password">ପାସୱାର୍ଡ</string>
+    <string name="otp">O.T.P</string>
+    <string name="name">ନାମ</string>
+    <string name="age">ବୟସ</string>
+    <string name="gender">ଲିଙ୍ଗ</string>
+    <string name="address">ଠିକଣା</string>
+    <string name="town">ଟାଉନ୍</string>
+    <string name="district">ଜିଲ୍ଲା</string>
+    <string name="pincode">ପିଙ୍କୋଡ୍ </string>
+    <string name="phoneNo">ଫୋନ୍ ନମ୍ବରr</string>
+    <string name="login">ଭିତରକୁ ଯାଉ</string>
+    <string name="signUp">ସାଇନ୍ ଅପ୍ କରନ୍ତୁ</string>
+    <string name="donthaveaccountsignup">ଖାତା ନାହିଁ? ସାଇନ୍ ଅପ୍ କରନ୍ତୁ</string>
+    <string name="allreadyhaveanaccountlogin">ପୂର୍ବରୁ ଏକ ଖାତା ଅଛି କି? ଭିତରକୁ ଯାଉ</string>
+    <string name="acceptCondtion">ସର୍ତ୍ତ ଏବଂ ସର୍ତ୍ତ ଗ୍ରହଣ କରନ୍ତୁ!</string>
+    <string name="clickhere"> ଏଠି କ୍ଲିକ କରନ୍ତୁ</string>
+    <string name="provideDetail">ଆବଶ୍ୟକ ବିବରଣୀ ପ୍ରଦାନ କରନ୍ତୁ</string>
+    <string name="submit">ଦାଖଲ କର</string>
+</resources>
